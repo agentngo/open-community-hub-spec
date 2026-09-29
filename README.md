@@ -1,0 +1,1 @@
+# open-community-hub-spec
