@@ -1,0 +1,41 @@
+{
+  "name": "@agentngo/open-community-hub-spec",
+  "version": "1.0.0",
+  "description": "Open Community Hub Specification (OCHS) — Standardized data model and schema for physical civic sharing and mutual aid hubs.",
+  "author": "Agent NGO / Civic Tech Open Source Working Group",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "schema",
+    "spec",
+    "examples"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/validator.test.mjs",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "community-hub",
+    "civic-tech",
+    "safe-zones",
+    "geojson",
+    "openstreetmap",
+    "mutual-aid",
+    "open-data-standard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentngo/open-community-hub-spec.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

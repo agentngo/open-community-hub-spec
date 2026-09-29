@@ -1,0 +1,77 @@
+{
+  "$schema": "../schema/v1/community-hub.schema.json",
+  "id": "urn:ochs:hub:is:reykjavik:radhus",
+  "name": "Ráðhús Reykjavíkur (Reykjavík City Hall)",
+  "alternateNames": [
+    "Reykjavík City Hall Atrium",
+    "Ráðhús Civic Information Desk"
+  ],
+  "description": "Public civic hall atrium beside Lake Tjörnin with staffed municipal information desk, natural daylight, open indoor seating, and designated mutual aid safe exchange spot.",
+  "venueType": "civic_center",
+  "location": {
+    "type": "Point",
+    "coordinates": [-21.9427, 64.1465],
+    "latitude": 64.1465,
+    "longitude": -21.9427,
+    "address": "Tjarnargata 11",
+    "postalCode": "101",
+    "neighborhood": "Tjörnin",
+    "district": "Miðborg",
+    "municipality": "Reykjavík",
+    "countryCode": "IS"
+  },
+  "operatingHours": {
+    "display": "Mon-Fri 08:00 - 18:00, Sat-Sun 10:00 - 18:00",
+    "osmOpeningHours": "Mo-Fr 08:00-18:00; Sa-Su 10:00-18:00",
+    "timezone": "Atlantic/Reykjavik",
+    "is24_7": false
+  },
+  "physicalExchangeCapacity": {
+    "storageTier": "direct_handover_only",
+    "maxItemDimensionsCm": {
+      "length": 80,
+      "width": 60,
+      "height": 60
+    },
+    "maxWeightKg": 25.0,
+    "maxHoldDurationHours": 24,
+    "acceptsPerishables": false,
+    "refrigerationAvailable": false
+  },
+  "verificationProtocol": {
+    "tier": "municipal_verified",
+    "lightingScore": 5,
+    "isStaffed": true,
+    "verificationHash": "0x5e1a2f908b7e21a44c9b19e2f54a8b719e045a278d910f23b7c8234901e83a77",
+    "verifierIdentity": "City of Reykjavík Department of Service & Innovation",
+    "verifiedAt": "2026-03-10T09:00:00Z",
+    "trustScore": 4.9,
+    "activeIssueCount": 0
+  },
+  "accessibility": {
+    "isIndoor": true,
+    "isStepFree": true,
+    "wheelchairAccessible": "yes",
+    "weekendAccessible": true,
+    "publicRestroom": true,
+    "publicWifi": true,
+    "transitNearby": [
+      "Ráðhúsið Bus Stop (Lines 1, 3, 11)"
+    ]
+  },
+  "osmAlignment": {
+    "osmId": "way/109823901",
+    "osmTags": {
+      "amenity": "townhall",
+      "name": "Ráðhús Reykjavíkur",
+      "wheelchair": "yes",
+      "opening_hours": "Mo-Fr 08:00-18:00; Sa-Su 10:00-18:00"
+    },
+    "wikidataId": "Q1748805"
+  },
+  "contact": {
+    "website": "https://reykjavik.is/radhus",
+    "phone": "+354 411 1111",
+    "email": "uppupplysingar@reykjavik.is"
+  }
+}

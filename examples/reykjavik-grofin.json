@@ -1,0 +1,89 @@
+{
+  "$schema": "../schema/v1/community-hub.schema.json",
+  "id": "urn:ochs:hub:is:reykjavik:grofin",
+  "name": "Borgarbókasafnið Grófin (Reykjavík City Library)",
+  "alternateNames": [
+    "Reykjavík City Library — Main Branch",
+    "Grófin Public Library"
+  ],
+  "description": "Main public library cafe lobby in Downtown Reykjavík. Peaceful, well-lit civic space with designated mutual-aid exchange shelves, public seating, and staffed information counter.",
+  "venueType": "library",
+  "location": {
+    "type": "Point",
+    "coordinates": [-21.9408, 64.1488],
+    "latitude": 64.1488,
+    "longitude": -21.9408,
+    "address": "Tryggvagata 15",
+    "postalCode": "101",
+    "neighborhood": "Downtown / Kvosin",
+    "district": "Vesturbær / Miðborg",
+    "municipality": "Reykjavík",
+    "countryCode": "IS"
+  },
+  "operatingHours": {
+    "display": "Mon-Thu 10:00 - 19:00, Fri 11:00 - 18:00, Sat-Sun 13:00 - 17:00",
+    "osmOpeningHours": "Mo-Th 10:00-19:00; Fr 11:00-18:00; Sa-Su 13:00-17:00",
+    "timezone": "Atlantic/Reykjavik",
+    "is24_7": false,
+    "weeklySchedule": [
+      { "dayOfWeek": "monday", "opens": "10:00", "closes": "19:00" },
+      { "dayOfWeek": "tuesday", "opens": "10:00", "closes": "19:00" },
+      { "dayOfWeek": "wednesday", "opens": "10:00", "closes": "19:00" },
+      { "dayOfWeek": "thursday", "opens": "10:00", "closes": "19:00" },
+      { "dayOfWeek": "friday", "opens": "11:00", "closes": "18:00" },
+      { "dayOfWeek": "saturday", "opens": "13:00", "closes": "17:00" },
+      { "dayOfWeek": "sunday", "opens": "13:00", "closes": "17:00" }
+    ]
+  },
+  "physicalExchangeCapacity": {
+    "storageTier": "designated_shelf",
+    "maxItemDimensionsCm": {
+      "length": 60,
+      "width": 40,
+      "height": 40
+    },
+    "maxWeightKg": 15.0,
+    "maxHoldDurationHours": 72,
+    "acceptsPerishables": false,
+    "refrigerationAvailable": false
+  },
+  "verificationProtocol": {
+    "tier": "cryptographically_anchored",
+    "lightingScore": 5,
+    "isStaffed": true,
+    "verificationHash": "0x3c7e84920b8e1f57a916327e5b9f02c6d8312e7a4b09f18e9502847c5d901a2f",
+    "verifierIdentity": "Reykjavík Civic Aid Network / ANG Foundation",
+    "verifiedAt": "2026-03-15T10:00:00Z",
+    "trustScore": 4.95,
+    "activeIssueCount": 0
+  },
+  "accessibility": {
+    "isIndoor": true,
+    "isStepFree": true,
+    "wheelchairAccessible": "yes",
+    "weekendAccessible": true,
+    "publicRestroom": true,
+    "publicWifi": true,
+    "transitNearby": [
+      "Lækjartorg (Strætó Lines 1, 3, 6, 11, 14)",
+      "Hafnarhús Stop"
+    ]
+  },
+  "osmAlignment": {
+    "osmId": "node/438831920",
+    "osmTags": {
+      "amenity": "library",
+      "name": "Borgarbókasafnið Grófin",
+      "wheelchair": "yes",
+      "opening_hours": "Mo-Th 10:00-19:00; Fr 11:00-18:00; Sa-Su 13:00-17:00",
+      "internet_access": "wlan",
+      "operator": "Borgarbókasafn Reykjavíkur"
+    },
+    "wikidataId": "Q16420542"
+  },
+  "contact": {
+    "website": "https://borgarbokasafn.is/en/grofin",
+    "phone": "+354 411 6100",
+    "email": "borgarbokasafn@borgarbokasafn.is"
+  }
+}
